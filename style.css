@@ -734,7 +734,7 @@ body {
 
 .gift {
   padding: 5rem 7%;
-  background: var(--judul-color);
+  background: var(--main-color);
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -745,7 +745,7 @@ body {
 .container-gift {
   padding: 2rem 4%;
   border-radius: 20px;
-  background-color: var(--main-color);
+  background-color: var(--judul-color);
 }
 
 .img-gift {
