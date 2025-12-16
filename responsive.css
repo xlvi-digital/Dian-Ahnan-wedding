@@ -131,17 +131,17 @@
 
   .tgl-acara h5 {
     padding: 0 1.2rem;
-    font-size: 2.8rem;
+    font-size: 1.8rem;
   }
 
   .bulan-akad {
     margin-left: 2rem;
   }
 
-  .bulan-akad h5{
+  /* .bulan-akad h5{
     
     font-size : 1.5rem;
-  }
+  } */
 
   .tgl-akad {
     margin-right: 2rem;
