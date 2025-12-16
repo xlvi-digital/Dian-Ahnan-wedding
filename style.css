@@ -373,6 +373,7 @@ body {
   color: var(--main-color);
   font-weight: normal;
   letter-spacing: 1px;
+  text-shadow: var(--shadow);
 }
 
 .home .couple img {
@@ -584,7 +585,7 @@ body {
 }
 
 .akad {
-  background-color: var(--judul-color);
+  background-color: #fff;
   border-style: double;
   border-width: 7px 7px 7px 7px;
   border-color: var(--main-color);
@@ -733,7 +734,7 @@ body {
 
 .gift {
   padding: 5rem 7%;
-  background: var(--text-color);
+  background: var(--judul-color);
   overflow: hidden;
   display: flex;
   justify-content: center;
