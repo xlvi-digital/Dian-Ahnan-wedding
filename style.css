@@ -261,7 +261,7 @@ body {
 }
 
 .coundown h2 {
-  color: var(--text-color);
+  color: var(--judul-color);
   font-size: 2.8rem;
   font-family: "analogue";
   font-weight: bold;
@@ -370,7 +370,7 @@ body {
 .home .couple h3 {
   font-family: "analogue", serif;
   font-size: 2.7rem;
-  color: var(--text-color);
+  color: var(--judul-color);
   font-weight: normal;
   letter-spacing: 1px;
 }
@@ -410,7 +410,7 @@ body {
 
 .heart i {
   margin: auto;
-  color: var(--text-color);
+  color: var(--judul-color);
   font-size: 1.4rem;
 }
 
@@ -937,7 +937,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(180deg, #e0dfdf00 33%, #f5caaa 90%);
+  background-image: linear-gradient(180deg, #e0dfdf00 33%, var(--main-color) 90%);
 }
 
 .wisher .img-wisher img {
@@ -953,13 +953,13 @@ body {
   align-items: start;
   padding: 0 5% 2rem;
   flex-direction: column;
-  background-color: #f5caaa;
+  background-color: var(--main-color);
 }
 
 .content-wisher h2 {
   font-size: 4rem;
   font-family: "analogue";
-  color: var(--text-color);
+  color: var(--judul-color);
   font-weight: 400;
   letter-spacing: 2px;
   margin-top: -4rem;
@@ -1092,7 +1092,7 @@ body {
 
 .hope {
   padding-top: 5rem;
-  background: rgb(247, 225, 208);
+  background: rgb(207, 194, 237);
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -1108,7 +1108,7 @@ body {
 .hope h4 {
   font-family: "analogue";
   font-size: 2.5rem;
-  color: var(--text-color);
+  color: var(--judul-color);
   font-weight: 400;
   margin-bottom: 0.8rem;
 }
@@ -1141,7 +1141,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(180deg, rgb(247, 225, 208) 0%, #e0dfdf00 80%);
+  background-image: linear-gradient(180deg, rgb(207, 194, 237) 0%, #e0dfdf00 80%);
 }
 
 .img-hope img {
@@ -1159,7 +1159,7 @@ footer {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: rgb(247, 225, 208);
+  background-color: rgb(207, 194, 237);
 }
 
 footer p {
