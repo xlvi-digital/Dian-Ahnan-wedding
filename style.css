@@ -601,7 +601,7 @@ body {
   font-size: 3.4rem;
   font-family: "analogue";
   font-weight: normal;
-  color: var(--text-color);
+  color: var(--judul-color);
   text-align: center;
   display: flex;
   justify-content: center;
