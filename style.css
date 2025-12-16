@@ -24,7 +24,8 @@
   --main-bg: #fff;
 
   --main-color: #b6a9d6;
-  --text-color: #2f568f;
+  --text-color: #444444;
+  --judul-color : #E8AFC2;
   --shadow: 0 2px 2px rgba(0 0 0 0.5);
 }
 
@@ -122,7 +123,7 @@ body {
   fill: #ffffff;
   color: #ffffff;
   background-color: transparent;
-  background-image: linear-gradient(180deg, var(--main-color) 0%, #ce8d5e 100%);
+  background-image: linear-gradient(180deg, var(--main-color) 0%, #7e6fa3 100%);
   border-style: none;
   border-radius: 20px 20px 20px 20px;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.09);
@@ -480,7 +481,7 @@ body {
 .container-story {
   /* padding: 2rem 7%; */
   border-radius: 20px;
-  background-color: #bbb1a7;
+  background-color: var(--main-color);
 }
 
 .img-story {
@@ -496,7 +497,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(180deg, #e0dfdf00 33%, #bbb1a7 94%);
+  background-image: linear-gradient(180deg, #e0dfdf00 33%, var(--main-color) 94%);
 }
 
 .img-story img {
@@ -586,7 +587,7 @@ body {
   background-color: #fff;
   border-style: double;
   border-width: 7px 7px 7px 7px;
-  border-color: #dfe4ea;
+  border-color: var(--judul-color);
   border-radius: 300px 300px 15px 15px;
   /* box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5); */
   width: 100%;
@@ -643,7 +644,7 @@ body {
 
 .tgl-akad h5 {
   font-size: 5.2rem;
-  color: #d59160;
+  color: var(--main-color);
   font-weight: 600;
   font-family: "analogue" serif;
   margin-bottom: 1rem;
@@ -675,7 +676,7 @@ body {
   fill: #ffffff;
   color: #ffffff;
   background-color: transparent;
-  background-image: linear-gradient(180deg, var(--main-color) 0%, #ce8d5e 100%);
+  background-image: linear-gradient(180deg, var(--main-color) 0%, #7e6fa3 100%);
   border-style: none;
   border-radius: 20px 20px 20px 20px;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.09);
@@ -732,7 +733,7 @@ body {
 
 .gift {
   padding: 5rem 7%;
-  background: #d59160;
+  background: #7e6fa3;
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -743,7 +744,7 @@ body {
 .container-gift {
   padding: 2rem 4%;
   border-radius: 20px;
-  background-color: #fad4b9;
+  background-color: var(--main-color);
 }
 
 .img-gift {
